@@ -1,0 +1,47 @@
+/* ---------------------------------------------all document----------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------------------------------------------Header ----------------------------------------------- */
+.header-container {
+  background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  background-size: 1440px 1315px;
+  background-position: 50% 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  margin: 0 282px;
+  padding: 3% 0;
+}
+
+.nav-bar-container {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-content: stretch;
+  align-items: stretch;
+  height: 36px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.nav-bar-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar-element {
+  background: linear-gradient(#a0a0a0 45%, #636363 45%, #a0a0a0 99%);
+  margin: 3px 0;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
