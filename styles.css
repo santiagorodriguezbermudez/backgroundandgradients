@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 /* ---------------------------------------------Header ----------------------------------------------- */
@@ -24,24 +25,34 @@
   list-style: none;
   justify-content: center;
   align-content: stretch;
-  align-items: stretch;
+  align-items: center;
   height: 36px;
-  border-radius: 4px;
   width: 100%;
 }
 
 .nav-bar-container a {
   text-decoration: none;
   color: white;
+  font-size: smaller;
+  font-weight: 100;
 }
 
 .nav-bar-element {
-  background: linear-gradient(#a0a0a0 45%, #636363 45%, #a0a0a0 99%);
-  margin: 3px 0;
-  height: 30px;
+  background: linear-gradient(#a0a0a0 45%, #636363 45%, #a0a0a0 150%);
+  height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
 }
 
+.first-element {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.last-element {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
