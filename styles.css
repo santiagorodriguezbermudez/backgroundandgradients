@@ -142,11 +142,22 @@
   max-width: 1000px;
   color: #6e6e6e;
   line-height: 1.2;
-  font-size: 0.7em;
+  font-size: 0.6em;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .footer-section {
-  margin: 1px auto;
+  margin: 5px;
+}
+
+.footer a, .footer a:visited, .footer a:hover, .footer a:active {
+  color: #89c2e4;
+  text-decoration: none;
+}
+
+.footer-listed-item {
+  margin: 0 2px;
 }
 
 .footer-list {
