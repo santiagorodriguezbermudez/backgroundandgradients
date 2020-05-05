@@ -86,13 +86,15 @@
   font-weight: 100;
   font-size: 60px;
   line-height: 130px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .sub-title {
   color: white;
-  width: 70%;
-  font-size: 30px;
+  width: 65%;
+  font-size: 25px;
   line-height: 50px;
+  font-weight: 100;
   text-align: center;
   align-content: center;
 }
@@ -101,6 +103,8 @@
   color: white;
   display: flex;
   align-items: center;
+  font-weight: 100;
+  font-size: 1.3rem;
   margin: 2% 0 15% 0;
 }
 
@@ -139,10 +143,11 @@
   display: flex;
   flex-wrap: wrap;
   margin: 2% auto;
-  max-width: 1000px;
+  max-width: 1050px;
   color: #6e6e6e;
   line-height: 1.2;
-  font-size: 0.6em;
+  font-weight: 100;
+  font-size: 0.7em;
   justify-content: flex-start;
   align-items: center;
 }
@@ -151,7 +156,10 @@
   margin: 5px;
 }
 
-.footer a, .footer a:visited, .footer a:hover, .footer a:active {
+.footer a,
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
   color: #89c2e4;
   text-decoration: none;
 }
