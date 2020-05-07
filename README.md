@@ -13,7 +13,7 @@ This project consists of building an HTML document that matches the appearance o
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/santiagorodriguezbermudez/backgroundandgradients/create-homepage/index.html)
 
 
 ## Authors
